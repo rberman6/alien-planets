@@ -3,8 +3,6 @@ console.log("hi");
 import { alienPlanets } from "./alienPlanets.js";
 
 for (let planet of alienPlanets) {
-  console.log(planet);
-
   const planetContainer = document.querySelector(".planet");
 
   const planetDiv = document.createElement("div");
