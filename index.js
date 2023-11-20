@@ -1,5 +1,3 @@
-console.log("hi");
-
 import { alienPlanets } from "./alienPlanets.js";
 
 for (let planet of alienPlanets) {
